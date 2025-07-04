@@ -92,6 +92,10 @@ yarn dev
 
 ##
 
+## 🌍 Link do Deploy
+
+Abra no navegador https://blog-pessoal-front-end-gilt.vercel.app/
+
 ## 👩🏻‍💻 Desenvolvedora
 
 Feito com 💜 por Camille Tarine!
