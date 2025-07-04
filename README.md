@@ -96,6 +96,10 @@ yarn dev
 
 Abra no navegador https://blog-pessoal-front-end-gilt.vercel.app/
 
+⚠️ O deploy foi feito de forma gratuita e por isso é possível que fique fora do ar depois de um tempo. Se não conseguir acessar, por favor, entre em contato comigo!
+
+##
+
 ## 👩🏻‍💻 Desenvolvedora
 
 Feito com 💜 por Camille Tarine!
