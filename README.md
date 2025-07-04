@@ -1,54 +1,97 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<h1 align="center">🕹️ Projeto Blog Pessoal FrontEnd </h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+<img src="https://img.shields.io/badge/status-Concluido-purple?style=for-the-badge" />
+<img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/TypeScript-4.x-blue?style=for-the-badge&logo=typescript" />
+<img src="https://img.shields.io/badge/Vite-5.x-purple?style=for-the-badge&logo=vite" />
+</p>
 
-## Expanding the ESLint configuration
+##
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Descrição
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Este projeto é um **Blog Pessoal** construído com **React + TypeScript** usando **Vite** como bundler. A aplicação permitirá que usuários criem, visualizem, editem e excluam postagens de forma simples e responsiva.
+
+##
+
+## 🚧 Funcionalidades planejadas
+
+- [x] Página Home com layout base
+- [x] Cadastro de usuários
+- [x] Login com autenticação JWT
+- [x] CRUD completo de postagens
+- [x] Responsividade mobile
+- [x] Integração com API REST (Spring Boot)
+- [x] Deploy na Vercel
+
+##
+
+## 🛠️ Tecnologias & Ferramentas
+
+- **React** 18
+- **TypeScript**
+- **Vite**
+- **React Router DOM**
+- **Axios**
+- **ESLint / Prettier**
+- **Tailwind CSS**
+
+##
+
+## 📋 Pré‑requisitos
+
+- **Node.js** v18 ou superior
+- **npm** v9+ ou **yarn** v1+
+
+##
+
+## 🚀 Como rodar localmente
+
+1. Clone o repositório
+```
+git clone https://github.com/CahTarine/Blog-Pessoal-FrontEnd.git
+```
+2. Acesse a pasta do projeto
+```
+cd Blog-Pessoal-FrontEnd
+```
+3. Instale as dependências
+```
+npm install
+# ou
+yarn
+```
+4. Inicie o servidor de desenvolvimento
+```
+npm run dev
+# ou
+yarn dev
+```
+5. Abra o navegador em http://localhost:5173
+
+##  
+
+## 📂 Estrutura de Pastas (resumida)
+
+```
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   ├── pages/
+│   │   └── home/
+│   │       └── Home.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+└── ...
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 👩🏻‍💻 Desenvolvedora
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Feito com 💜 por Camille Tarine!
