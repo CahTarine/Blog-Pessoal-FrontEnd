@@ -5,8 +5,8 @@
 <p align="center">
 <img src="https://img.shields.io/badge/status-Concluido-purple?style=for-the-badge" />
 <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
-<img src="https://img.shields.io/badge/TypeScript-4.x-blue?style=for-the-badge&logo=typescript" />
-<img src="https://img.shields.io/badge/Vite-5.x-purple?style=for-the-badge&logo=vite" />
+<img src="https://img.shields.io/badge/TypeScript-4.x-purple?style=for-the-badge&logo=typescript" />
+<img src="https://img.shields.io/badge/Vite-5.x-blue?style=for-the-badge&logo=vite" />
 </p>
 
 ##
